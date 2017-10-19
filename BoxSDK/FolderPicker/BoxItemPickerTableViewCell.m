@@ -1,16 +1,16 @@
 //
-//  BOXItemPickerTableViewCell.m
+//  BoxItemPickerTableViewCell.m
 //  BoxSDK
 //
 //  Copyright (c) 2014 Box. All rights reserved.
 //
 
-#import "BOXItemPickerTableViewCell.h"
+#import "BoxItemPickerTableViewCell.h"
 #import "BoxItemPickerHelper.h"
 #import "UIImage+BoxAdditions.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation BOXItemPickerTableViewCell
+@implementation BoxItemPickerTableViewCell
 
 @synthesize helper = _helper;
 @synthesize item = _item;
@@ -87,7 +87,7 @@
         if ([self.helper shouldDiplayThumbnailForItem:self.item] && needsAPICall && showThumbnails)
         {
             __block BoxItem *currentItem = self.item;
-            __weak BOXItemPickerTableViewCell *me = self;
+            __weak BoxItemPickerTableViewCell *me = self;
             
             [self.helper thumbnailForItem:self.item cachePath:self.cachePath refreshed:^(UIImage *image) {
                 if (image && me.item == currentItem)

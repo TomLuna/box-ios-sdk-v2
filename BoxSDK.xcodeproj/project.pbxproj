@@ -11,7 +11,7 @@
 		70B086F818E0DC1300EA2D8F /* BoxSharedObjectBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B086F618E0DC0200EA2D8F /* BoxSharedObjectBuilderTests.m */; };
 		7D4408151BDA78CA0080FB42 /* BoxItemPickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C218D7A4A600E3C302 /* BoxItemPickerHelper.m */; };
 		7D4408161BDA78CA0080FB42 /* BoxItemPickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C418D7A4A600E3C302 /* BoxItemPickerNavigationController.m */; };
-		7D4408171BDA78CA0080FB42 /* BOXItemPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C618D7A4A600E3C302 /* BOXItemPickerTableViewCell.m */; };
+		7D4408171BDA78CA0080FB42 /* BoxItemPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C618D7A4A600E3C302 /* BoxItemPickerTableViewCell.m */; };
 		7D44081A1BDA78D90080FB42 /* NSString+BoxURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD97D172CE2C50052AD11 /* NSString+BoxURLHelper.m */; };
 		7D44081B1BDA78D90080FB42 /* NSURL+BoxURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAD97F172CE2C50052AD11 /* NSURL+BoxURLHelper.m */; };
 		7D44081C1BDA78D90080FB42 /* NSString+BoxAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C11A3E175DA92E0001EC88 /* NSString+BoxAdditions.m */; };
@@ -256,8 +256,8 @@
 		C5E155CE18D7A4A600E3C302 /* BoxItemPickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C218D7A4A600E3C302 /* BoxItemPickerHelper.m */; };
 		C5E155CF18D7A4A600E3C302 /* BoxItemPickerNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E155C318D7A4A600E3C302 /* BoxItemPickerNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5E155D018D7A4A600E3C302 /* BoxItemPickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C418D7A4A600E3C302 /* BoxItemPickerNavigationController.m */; };
-		C5E155D118D7A4A600E3C302 /* BOXItemPickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E155C518D7A4A600E3C302 /* BOXItemPickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5E155D218D7A4A600E3C302 /* BOXItemPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C618D7A4A600E3C302 /* BOXItemPickerTableViewCell.m */; };
+		C5E155D118D7A4A600E3C302 /* BoxItemPickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E155C518D7A4A600E3C302 /* BoxItemPickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E155D218D7A4A600E3C302 /* BoxItemPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C618D7A4A600E3C302 /* BoxItemPickerTableViewCell.m */; };
 		C5E155D318D7A4A600E3C302 /* BoxItemPickerTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E155C718D7A4A600E3C302 /* BoxItemPickerTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5E155D418D7A4A600E3C302 /* BoxItemPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E155C818D7A4A600E3C302 /* BoxItemPickerTableViewController.m */; };
 		C5E155D518D7A4A600E3C302 /* BoxItemPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E155C918D7A4A600E3C302 /* BoxItemPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -770,8 +770,8 @@
 		C5E155C218D7A4A600E3C302 /* BoxItemPickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxItemPickerHelper.m; sourceTree = "<group>"; };
 		C5E155C318D7A4A600E3C302 /* BoxItemPickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxItemPickerNavigationController.h; sourceTree = "<group>"; };
 		C5E155C418D7A4A600E3C302 /* BoxItemPickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxItemPickerNavigationController.m; sourceTree = "<group>"; };
-		C5E155C518D7A4A600E3C302 /* BOXItemPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOXItemPickerTableViewCell.h; sourceTree = "<group>"; };
-		C5E155C618D7A4A600E3C302 /* BOXItemPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOXItemPickerTableViewCell.m; sourceTree = "<group>"; };
+		C5E155C518D7A4A600E3C302 /* BoxItemPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxItemPickerTableViewCell.h; sourceTree = "<group>"; };
+		C5E155C618D7A4A600E3C302 /* BoxItemPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxItemPickerTableViewCell.m; sourceTree = "<group>"; };
 		C5E155C718D7A4A600E3C302 /* BoxItemPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxItemPickerTableViewController.h; sourceTree = "<group>"; };
 		C5E155C818D7A4A600E3C302 /* BoxItemPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxItemPickerTableViewController.m; sourceTree = "<group>"; };
 		C5E155C918D7A4A600E3C302 /* BoxItemPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxItemPickerViewController.h; sourceTree = "<group>"; };
@@ -1029,8 +1029,8 @@
 				C5E155C218D7A4A600E3C302 /* BoxItemPickerHelper.m */,
 				C5E155C318D7A4A600E3C302 /* BoxItemPickerNavigationController.h */,
 				C5E155C418D7A4A600E3C302 /* BoxItemPickerNavigationController.m */,
-				C5E155C518D7A4A600E3C302 /* BOXItemPickerTableViewCell.h */,
-				C5E155C618D7A4A600E3C302 /* BOXItemPickerTableViewCell.m */,
+				C5E155C518D7A4A600E3C302 /* BoxItemPickerTableViewCell.h */,
+				C5E155C618D7A4A600E3C302 /* BoxItemPickerTableViewCell.m */,
 				C5E155C718D7A4A600E3C302 /* BoxItemPickerTableViewController.h */,
 				C5E155C818D7A4A600E3C302 /* BoxItemPickerTableViewController.m */,
 				C5E155C918D7A4A600E3C302 /* BoxItemPickerViewController.h */,
@@ -1688,7 +1688,7 @@
 				C5E155D518D7A4A600E3C302 /* BoxItemPickerViewController.h in Headers */,
 				C5E155CD18D7A4A600E3C302 /* BoxItemPickerHelper.h in Headers */,
 				C5E155CF18D7A4A600E3C302 /* BoxItemPickerNavigationController.h in Headers */,
-				C5E155D118D7A4A600E3C302 /* BOXItemPickerTableViewCell.h in Headers */,
+				C5E155D118D7A4A600E3C302 /* BoxItemPickerTableViewCell.h in Headers */,
 				C5E155D318D7A4A600E3C302 /* BoxItemPickerTableViewController.h in Headers */,
 				E44A95D116E221B400356ADA /* BoxSDKConstants.h in Headers */,
 				E44A95D216E221B400356ADA /* BoxSDK.h in Headers */,
@@ -2193,7 +2193,7 @@
 			files = (
 				7D4408151BDA78CA0080FB42 /* BoxItemPickerHelper.m in Sources */,
 				7D4408161BDA78CA0080FB42 /* BoxItemPickerNavigationController.m in Sources */,
-				7D4408171BDA78CA0080FB42 /* BOXItemPickerTableViewCell.m in Sources */,
+				7D4408171BDA78CA0080FB42 /* BoxItemPickerTableViewCell.m in Sources */,
 				7D44081A1BDA78D90080FB42 /* NSString+BoxURLHelper.m in Sources */,
 				7D44081B1BDA78D90080FB42 /* NSURL+BoxURLHelper.m in Sources */,
 				7D44081C1BDA78D90080FB42 /* NSString+BoxAdditions.m in Sources */,
@@ -2264,7 +2264,7 @@
 				E4FAD9C9172CE2C50052AD11 /* BoxFile.m in Sources */,
 				E4FAD9CB172CE2C50052AD11 /* BoxFolder.m in Sources */,
 				E4FAD9CD172CE2C50052AD11 /* BoxItem.m in Sources */,
-				C5E155D218D7A4A600E3C302 /* BOXItemPickerTableViewCell.m in Sources */,
+				C5E155D218D7A4A600E3C302 /* BoxItemPickerTableViewCell.m in Sources */,
 				E4FAD9CF172CE2C50052AD11 /* BoxModel.m in Sources */,
 				E4FAD9D1172CE2C50052AD11 /* BoxUser.m in Sources */,
 				E4FAD9D3172CE2C50052AD11 /* BoxWebLink.m in Sources */,

@@ -72,7 +72,7 @@
 #endif
 #import <BoxSDK/BoxItemPickerNavigationController.h>
 
-@protocol BOXItemPickerDelegate;
+@protocol BoxItemPickerDelegate;
 
 extern NSString *const BoxAPIBaseURL;
 
@@ -227,7 +227,7 @@ extern NSString *const BoxAPIBaseURL;
  * @param selectableObjectType The kind of selection the created itemPicker should perform.
  * @return A BoxItemPickerViewController.
  */
-- (BoxItemPickerViewController *)itemPickerWithDelegate:(id <BOXItemPickerDelegate>)delegate 
+- (BoxItemPickerViewController *)itemPickerWithDelegate:(id <BoxItemPickerDelegate>)delegate 
                                    selectableObjectType:(BoxItemPickerObjectType)selectableObjectType;
 #endif
 

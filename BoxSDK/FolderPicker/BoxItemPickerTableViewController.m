@@ -14,7 +14,7 @@
 #import <BoxSDK/BoxItemPickerTableViewCell.h>
 #import <BoxSDK/UIImage+BoxAdditions.h>
 #import <BoxSDK/NSString+BoxAdditions.h>
-#import <BoxSDK/BOXItem+BoxAdditions.h>
+#import <BoxSDK/BoxItem+BoxAdditions.h>
 
 @implementation BoxItemPickerTableViewController
 
@@ -92,11 +92,11 @@
     static NSString *CellIdentifier = @"BoxCell";
     static NSString *FooterIdentifier = @"BoxFooterCell";
     
-    BOXItemPickerTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    BoxItemPickerTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil)
     {
-        cell = [[BOXItemPickerTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell = [[BoxItemPickerTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
         cell.selectionStyle = UITableViewCellSelectionStyleGray;
         cell.textLabel.font = [UIFont systemFontOfSize:16.0f];
         cell.detailTextLabel.font = [UIFont systemFontOfSize:13.0f];
@@ -154,7 +154,7 @@
 
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    BOXItemPickerTableViewCell *cell = (BOXItemPickerTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
+    BoxItemPickerTableViewCell *cell = (BoxItemPickerTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
     
     return (cell.enabled) ? indexPath : nil;
 }

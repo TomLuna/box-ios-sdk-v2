@@ -1,5 +1,5 @@
 //
-//  BOXItemPickerTableViewCell.h
+//  BoxItemPickerTableViewCell.h
 //  BoxSDK
 //
 //  Copyright (c) 2014 Box. All rights reserved.
@@ -8,7 +8,7 @@
 #import "BoxItemPickerHelper.h"
 #import "BoxItem.h"
 
-@interface BOXItemPickerTableViewCell : UITableViewCell
+@interface BoxItemPickerTableViewCell : UITableViewCell
 
 @property (nonatomic, readwrite, strong) BoxItemPickerHelper *helper;
 @property (nonatomic, readwrite, strong) BoxItem *item;

@@ -24,14 +24,14 @@ typedef NS_ENUM(NSUInteger, BoxItemPickerObjectType) {
 @class BoxFile;
 
 /**
- * The BOXItemPickerDelegate protocol allows your application to interact with a
+ * The BoxItemPickerDelegate protocol allows your application to interact with a
  * BoxItemPickerViewController and respond to the user selecting an item from
  * their Box account.
  *
  * The folder picker returns BoxModel objects to your delegate, which you can then
  * use to make API calls with the SDK.
  */
-@protocol BOXItemPickerDelegate <NSObject>
+@protocol BoxItemPickerDelegate <NSObject>
 
 /**
  * The user wants do dismiss the itemPicker
@@ -78,7 +78,7 @@ typedef NS_ENUM(NSUInteger, BoxItemPickerObjectType) {
 @interface BoxItemPickerViewController : UIViewController <BoxItemPickerTableViewControllerDelegate>
 #endif
 
-@property (nonatomic, readwrite, weak) id<BOXItemPickerDelegate> delegate;
+@property (nonatomic, readwrite, weak) id<BoxItemPickerDelegate> delegate;
 
 
 /**

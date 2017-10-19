@@ -436,7 +436,7 @@ typedef enum {
 /**
  * Return and enqueue an operation to share a file.
  *
- * @param item The BOXItem to share.
+ * @param item The BoxItem to share.
  * @param builder A BOXFilesRequestBuilder instance that containts query parameter for the request.
  *  **Note** : Since this is a share request, the 'sharedLink' property is required for the share to succeeed.
  * @param successBlock A callback that is triggered if the API call completes successfully.
